@@ -1,7 +1,8 @@
 
 import GetWeather from '../Components/getWeather.js'
 
-// struggling to add imports here...
+// this could act as another child component to be rendered to getweather.js
+
    const dateBuild = (D) => {
     let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
     let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]; 
