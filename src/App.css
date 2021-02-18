@@ -19,9 +19,6 @@ header {
   opacity: 0%;
 } 
 
-.app.cloud{
-  background-image: url("./Images/cloudy.jpg");
-}
 .app.snow {
   background-image: url("./Images/snow.jpg");
 }
