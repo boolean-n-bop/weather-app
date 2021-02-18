@@ -55,7 +55,7 @@ function App() {
           typeof weather.main != "undefined"
             ? weather.main.temp > 16
               ? "app warm"
-              : "app" && (weather.main.temp < 5 ? "app snow" : "app")
+              : "app" && (weather.main.temp < 5? "app snow" : "app")
             : "app"
         }
       >
@@ -74,6 +74,7 @@ function App() {
               />
             </div>
           </div>
+
 
           {/* <div className= "button"><NextButton/></div> */}
 
