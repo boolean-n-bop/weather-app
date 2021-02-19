@@ -19,12 +19,19 @@ header {
   opacity: 0%;
 } 
 
+.app.cloud{
+  background-image: url("./Images/cloudy.jpeg");
+}
 .app.snow {
-  background-image: url("./Images/snow.jpg");
+  background-image: url("./Images/snowsnow.jpeg");
 }
 
-.app.warm {
-  background-image: url("./Images/warm.jpg.jpg");
+.app.sunny {
+  background-image: url("./Images/sunny.jpg");
+}
+
+.app.rain{
+  background-image: url("./Images/rainy.jpg");
 }
 
 .app {
